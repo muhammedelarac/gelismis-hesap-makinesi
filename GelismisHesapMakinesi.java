@@ -41,7 +41,7 @@ public class GelismisHesapMakinesi {
         int sayi, sonuc = 1, i = 1;
 
         while (true) {
-            System.out.print(i++ + ". sayı :");
+            System.out.print(i++ + ". sayı : (çıkmak için '1' seçiniz) ");
             sayi = sc.nextInt();
 
             if (sayi == 1)
